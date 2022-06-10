@@ -40,7 +40,7 @@
                     <img src="./assets/img/twitter.png" alt="twitter" class="img">
                     <h3 class="card_name">Twitter <br>Fast Mechanism </h3>
                     <div class="btn_violet">
-                        <a href="https://twitter.com/FastMechanism" class="btn_text">
+                        <a href="https://twitter.com/FastMechanism" class=" btn_text">
                             CLIK HERE
                         </a>
                     </div>
@@ -49,9 +49,7 @@
                     <img src="./assets/img/Gmail.png" alt="gmail" class="img">
                     <h3 class="card_name">Gmail <br>Fast Mechanism </h3>
                     <div class="btn_light_blue">
-                        <a href="" class="btn_text">
-                            CLIK HERE
-                        </a>
+                        <a class="btn_text">CLIK HERE</a>
                     </div>
                 </div>
             </div>
