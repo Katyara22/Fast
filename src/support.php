@@ -10,96 +10,7 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet" href="./assets/css/style.css">``
-    <style>
-        .btn_blue {
-            width: 140px;
-            height: 40px;
-            background: linear-gradient(94.67deg, #314ACF 0%, #0A9DBD 100%);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 20px;
-            position: relative;
-            top: 30px;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 17px;
-            text-align: center;
-            letter-spacing: 0.25em;
-            text-transform: capitalize;
-            color: #FFFFFF;
-            text-decoration: none;
-            padding: 0px 33px 0px 33px;
-        }
-
-        .btn_pink {
-            width: 140px;
-            height: 40px;
-            background: linear-gradient(95.16deg, #C241FF 8.84%, #0AB3BD 100%);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 20px;
-            position: relative;
-            top: 30px;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 17px;
-            text-align: center;
-            letter-spacing: 0.25em;
-            text-transform: capitalize;
-            color: #FFFFFF;
-            text-decoration: none;
-            padding: 0px 33px 0px 33px;
-        }
-
-        .btn_violet {
-            position: relative;
-            width: 140px;
-            height: 40px;
-            background: linear-gradient(274.67deg, #C241FF 0%, #6429DD 100%);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 20px;
-            top: 30px;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 17px;
-            text-align: center;
-            letter-spacing: 0.25em;
-            text-transform: capitalize;
-            color: #FFFFFF;
-            text-decoration: none;
-            padding: 0px 33px 0px 33px;
-        }
-
-        .btn_light_blue {
-            width: 140px;
-            height: 40px;
-            background: linear-gradient(274.67deg, #AD00FF 0%, #6D45E8 47.92%, #34A5AC 100%);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 20px;
-            position: relative;
-            top: 30px;
-            padding: 0px 33px 0px 33px;
-        }
-
-        .btn_text {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 17px;
-            text-align: center;
-            letter-spacing: 0.25em;
-            text-transform: capitalize;
-            color: #FFFFFF;
-            text-decoration: none;
-            /* padding: 13px 33px 13px 33px; */
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -113,7 +24,7 @@
                     <div class="btn_blue">
                         <a href="https://t.me/+xT_udWq6q3MyYWIy" class="btn_text">
                             CLIK HERE
-                         </a>
+                        </a>
                     </div>
                 </div>
                 <div class="card_pink">
