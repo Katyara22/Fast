@@ -14,6 +14,7 @@ gulp.task('server', function () {
     });
 });
 
+// completed sass file
 gulp.task('styles', function () {
     return gulp.src("src/assets/sass/style/*.+(scss|sass)")
         .pipe(sass({ autputStyle: 'compressed' }).on('error', sass.logError))

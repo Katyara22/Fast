@@ -139,3 +139,37 @@
     text-transform: capitalize;
     color: #FFFFFF
 }
+
+.modal {
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(274.67deg, #AD00FF 0%, #6D45E8 47.92%, #34A5AC 100%);
+}
+
+.btn-close {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(312deg, #0AB3BD 0%, #530EE7 100%, #314DCF 100%);
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.25em;
+    text-transform: capitalize;
+    color: #fff;
+    position: absolute;
+    left: 270px;
+}
+
+.modal-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.25em;
+    text-transform: capitalize;
+    color: #fff;
+}
