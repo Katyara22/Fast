@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 @import "scrollbar";
 @import "game";
 @import "program";
 @import "support";
 @import "info";
+@import "index";
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+html {
+    font-family: 'Inter';
 }
 
 body {
