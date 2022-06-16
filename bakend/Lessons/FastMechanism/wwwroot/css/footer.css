@@ -1,0 +1,74 @@
+footer {
+    width: 100%;
+}
+.last_footer {
+    height: 150px;
+    background: #C4C4C4;
+}
+.contact {
+    position: relative;
+    
+    height: 31px;
+    background: #2D2D2D;
+}
+
+.contact_icons {
+    margin: 0 auto;
+    width: 235px;
+    height: 31px;
+    position: relative;
+}
+
+.Telegram_img {
+    display: inline-block;
+    position: absolute;
+    margin-top: 3px;
+    right: 204px;
+}
+
+.Discord_img {
+    display: inline-block;
+    position: absolute;
+    margin-top: 4px;
+    right: 171px;
+    margin-left: 3px;
+}
+
+.Twitter_img {
+    display: inline-block;
+    position: absolute;
+    margin-top: 4px;
+    right: 138px;
+    margin-left: 3px;
+}
+
+.Gmail_img {
+    display: inline-block;
+    position: absolute;
+    margin-top: 3px;
+    right: 102px; 
+    margin-left: 3px;
+}
+
+.Facebook_img {
+    display: inline-block;
+    position: absolute;
+    margin-top: 1px;
+    right: 64px;
+    margin-left: 3px;
+}
+
+.Steam_img {
+    display: inline-block;
+    position: absolute;
+    right: 31px;
+    padding-left: 3px;
+}
+.reddit_img {
+    display: inline-block;
+    position: absolute;
+    height: 31px;
+    width: 31px;
+    right: 0px;
+    margin-left: 3px;
+}

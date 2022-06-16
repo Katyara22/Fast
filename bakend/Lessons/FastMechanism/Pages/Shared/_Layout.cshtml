@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4886FF">
+    <title>@ViewData["Title"] - RezorPages</title>
+    <link rel="stylesheet" href="~/css/header.css" />
+    <link rel="stylesheet" href="~/css/footer.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+
+</head>
+<body>
+    <header>
+        <div class="logо_block">
+            <img class="logo_img" src="/img/logo.png" alt="Fast Mechanism">
+            <div class="logo_text">Fast Mechanism</div>
+        </div>
+        <div class="download_block">
+            <a type="reset" class="download" asp-area="" asp-page="/Employees/Dowload">Download</a>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li class="list sup">
+                    <a asp-area="" asp-page="/Employees/support">
+                        <span class="text">support</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a asp-area="" asp-page="/Employees/Games">
+                        <span class="text">Games</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="" asp-page="/Employees/programs">
+                        <span class="text">programs</span>
+                    </a>
+                </li>
+                <li class="list last info ">
+                    <a asp-area="" asp-page="/Employees/info">
+                        <span class="text">info</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+
+    <footer>
+        <div class="contact">
+            <div class="contact_icons">
+                <a>
+                    <img src="/img/Telegram.png" alt="Telegram" class="Telegram_img">
+                </a>
+                <a>
+                    <img src="/img/Discord.png" alt="Discord" class="Discord_img">
+                </a>
+                <a>
+                    <img src="/img/Twitter.png" alt="Twitter" class="Twitter_img">
+                </a>
+                <a>
+                    <img src="/img/Gmail.png" alt="Gmail" class="Gmail_img">
+                </a>
+                <a>
+                    <img src="/img/Facebook.png" alt="Facebook" class="Facebook_img">
+                </a>
+                <a>
+                    <img src="/img/Steam.png" alt="Steam" class="Steam_img">
+                </a>
+                <a>
+                    <img src="/img/Readdit.png" alt="reddit" class="reddit_img">
+                </a>
+            </div>
+        </div>
+        <div class="last_footer"></div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/header.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

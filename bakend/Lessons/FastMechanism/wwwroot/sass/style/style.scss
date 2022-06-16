@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import "scrollbar";
+@import "game";
+@import "program";
+@import "support";
+@import "info";
+@import "index";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Inter';
+}
+
+body {
+    background: linear-gradient(89.98deg, #2379C9 0.02%, #4886FF 0.03%, #0AB3BD 26.16%, #8E5DBF 57.53%, #4607CD 100.4%);
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
