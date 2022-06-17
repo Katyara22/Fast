@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vkrfn0YTjHstqYxzeYmx/RAF5plYc2Bqb/r0EsoYeYt2z3R9q+n++9Fh3JJUC+Q6Hrb4HXWqhp/2mdTNRAbGrg==",
+  "dgSpecHash": "bxx2zZBxIMhGssBWcEm2l4t8nqXedMTlWxoZU6Ini7G9XPb0XHvxsOshm7Tg4wKLND94LKx3BBlfPEXyUn+Ogw==",
   "success": true,
-  "projectFilePath": "F:\\Projects\\Razor\\Lessons\\FastMechanism\\FastMechanism.csproj",
+  "projectFilePath": "F:\\Fast\\bakend\\Lessons\\FastMechanism\\FastMechanism.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

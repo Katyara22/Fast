@@ -5,14 +5,14 @@ const rename = require("gulp-rename");
 const autoprefix = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 
-//// Static server
-//gulp.task('server', function () {
+// Static server
+// gulp.task('server', function () {
 //    browserSync.init({
 //        server: {
 //            baseDir: "src"
 //        }
 //    });
-//});
+// });
 
 // completed sass file
 gulp.task('styles', function () {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projects\\Razor\\Lessons\\FastMechanism\\FastMechanism.csproj": {}
+    "F:\\Fast\\bakend\\Lessons\\FastMechanism\\FastMechanism.csproj": {}
   },
   "projects": {
-    "F:\\Projects\\Razor\\Lessons\\FastMechanism\\FastMechanism.csproj": {
+    "F:\\Fast\\bakend\\Lessons\\FastMechanism\\FastMechanism.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\Razor\\Lessons\\FastMechanism\\FastMechanism.csproj",
+        "projectUniqueName": "F:\\Fast\\bakend\\Lessons\\FastMechanism\\FastMechanism.csproj",
         "projectName": "FastMechanism",
-        "projectPath": "F:\\Projects\\Razor\\Lessons\\FastMechanism\\FastMechanism.csproj",
+        "projectPath": "F:\\Fast\\bakend\\Lessons\\FastMechanism\\FastMechanism.csproj",
         "packagesPath": "C:\\Users\\Nazar\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\Razor\\Lessons\\FastMechanism\\obj\\",
+        "outputPath": "F:\\Fast\\bakend\\Lessons\\FastMechanism\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

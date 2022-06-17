@@ -1,0 +1,21 @@
+﻿.blurAuto {
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.blur {
+    background: rgba(0, 0, 0, 0.45);
+    padding: 10px 0 10px 0;
+}
+
+.MainContainer {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.text {
+    color: white;
+    padding: 5px 0 5px 0;
+    font-weight: 500;
+}

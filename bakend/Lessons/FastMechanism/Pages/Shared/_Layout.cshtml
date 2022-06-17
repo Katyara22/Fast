@@ -4,11 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#4886FF">
-    <title>@ViewData["Title"] - RezorPages</title>
+    <title>@ViewData["Title"] - Fast Mechanism</title>
+    <link rel="icon" type="image/x-icon" href="~/logo.ico">
     <link rel="stylesheet" href="~/css/header.css" />
     <link rel="stylesheet" href="~/css/footer.css" />
     <link rel="stylesheet" href="~/css/style.css" />
-
+    <link rel="stylesheet" href="~/css/info.css" />
 </head>
 <body>
     <header>
@@ -17,7 +18,7 @@
             <div class="logo_text">Fast Mechanism</div>
         </div>
         <div class="download_block">
-            <a type="reset" class="download" asp-area="" asp-page="/Employees/Dowload">Download</a>
+            <a type="reset" class="download" asp-area="" asp-page="/Index">Download</a>
         </div>
         <div class="navigation">
             <ul>
@@ -44,9 +45,10 @@
             </ul>
         </div>
     </header>
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
 
     <footer>
         <div class="contact">
