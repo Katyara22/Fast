@@ -1,0 +1,73 @@
+.container {
+    width: 1320px;
+    height: 822px;
+
+    .box {
+        position: relative;
+        margin: 18px 0 0 25px;
+        width: 528px;
+
+        .div_photo_game {
+            width: 166px;
+            height: 98px;            
+            border-radius: 10px;
+            float: left;
+            margin: 5px;
+            cursor: pointer;
+            border: solid 2px transparent;
+        }
+
+        .div_photo_game.selected {
+            border: solid 2px #FFFFFF;
+        }
+    }
+
+    .main_photo {
+        position: relative;
+        margin: 5px 0 0 7px;
+        width: 726px;
+        height: 528px;
+        background: #D9D9D9;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    .container_Button {
+        float: left;
+        width: 100%;
+        text-align: center;
+
+        .name_game {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.25em;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            // margin-left: 220px;
+            margin-top: 15px;
+        }
+
+        .dowload_game {
+            display: inline-block;
+            width: 170px;
+            height: 43px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.25em;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            cursor: pointer;
+            text-decoration: none;
+            background: linear-gradient(274.67deg, #0AB3BD 0%, #314DCF 100%);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            // margin-left: 208px;
+            margin-top: 18px;
+            padding: 12px;
+        }
+    }
+}
