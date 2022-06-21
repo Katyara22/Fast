@@ -1,4 +1,3 @@
-
 window.onload = function(){ 
 
     document.querySelectorAll('.div_photo_game').forEach(el => {
