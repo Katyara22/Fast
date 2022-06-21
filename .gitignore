@@ -1,4 +1,6 @@
-.suo
+*.suo
 obj
 bin
 .vs
+*.vs
+*.vs2
