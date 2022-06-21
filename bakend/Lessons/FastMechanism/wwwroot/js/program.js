@@ -1,5 +1,5 @@
 
-window.onload = function(){ 
+//window.onload = function(){ 
 
     document.querySelectorAll('.item_program').forEach(el => {
         el.onclick = (event) => {
@@ -26,5 +26,5 @@ window.onload = function(){
     });
 
 
-};
+//};
 
