@@ -13,27 +13,54 @@
     <link rel="stylesheet" href="~/css/info.css" /> 
     <link rel="stylesheet" href="~/css/game.css" />
     <link rel="stylesheet" href="~/css/headrcss.css" />
+    <!-- css library-->
     <style>
+        :root {
+            --color-success-fg: #3fb950;
+            --color-success-emphasis: #238636;
+            --color-switch-knob-checked-disabled-bg: #484f58;
+        }
+
+        .Beta {
+            padding: 0 4px 0 4px;
+            color: var(--color-success-fg);
+            display: inline;
+            padding: 0.12em 0.5em; 
+            display: inline-block;
+            padding: 0 7px;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 18px;
+            white-space: nowrap;
+            border: 1px solid transparent;
+            border-radius: 2em;
+            border-color: var(--color-success-emphasis);
+            margin-left: 4px !important;
+            padding-right: 4px !important;
+            padding-left: 4px !important;
+            background: var(--color-switch-knob-checked-disabled-bg);
+        }
+
         .downloadbtn {
-        position: absolute;
-        right: 0px;
-        padding: 16px;
-        border: 0px;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        letter-spacing: 0.25em;
-        text-transform: capitalize;
-        color: #000000;
-        background: linear-gradient(98.95deg, #0AB3BD 0%, #530EE7 100%, #314DCF 100%);
-        text-decoration: none;
-        display: inline-block;
-        width: 126px;
-        height: 50px;
-        cursor: pointer;
-    }
+            position: absolute;
+            right: 0px;
+            padding: 16px;
+            border: 0px;
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.25em;
+            text-transform: capitalize;
+            color: #000000;
+            background: linear-gradient(98.95deg, #0AB3BD 0%, #530EE7 100%, #314DCF 100%);
+            text-decoration: none;
+            display: inline-block;
+            width: 126px;
+            height: 50px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
