@@ -166,8 +166,30 @@
     width: 215px;
 }
 
+.download {
+    position: absolute;
+    right: 0px;
+    padding: 16px;
+    border: 0px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.25em;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    width: 126px;
+    height: 50px;
+    background: linear-gradient(97.36deg, #CC6BFA 0%, #5400FF 97.94%);
+    cursor: pointer;
+}
+
 header {
     width: 100%;
+    display: f;
     height: 50px;
     background: #000;
 }
