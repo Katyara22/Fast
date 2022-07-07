@@ -1,0 +1,25 @@
+:root {
+    --color-success-fg: #3fb950;
+    --color-success-emphasis: #238636;
+    --color-switch-knob-checked-disabled-bg: #484f58;
+}
+
+.Beta {
+    padding: 0 4px 0 4px;
+    color: var(--color-success-fg);
+    display: inline;
+    padding: 0.12em 0.5em; 
+    display: inline-block;
+    padding: 0 7px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    border-radius: 2em;
+    border-color: var(--color-success-emphasis);
+    margin-left: 4px !important;
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+    background: var(--color-switch-knob-checked-disabled-bg);
+}

@@ -13,38 +13,93 @@
     <link rel="stylesheet" href="~/css/info.css" /> 
     <link rel="stylesheet" href="~/css/game.css" />
     <link rel="stylesheet" href="~/css/headrcss.css" />
+    <!-- css library-->
+    <style>
+        :root {
+            --color-success-fg: #3fb950;
+            --color-success-emphasis: #238636;
+            --color-switch-knob-checked-disabled-bg: #484f58;
+        }
+        
+        .Beta {
+            padding: 0 4px 0 4px;
+            color: var(--color-success-fg);
+            display: inline;
+            padding: 0.12em 0.5em; 
+            display: inline-block;
+            padding: 0 7px;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 18px;
+            white-space: nowrap;
+            border: 1px solid transparent;
+            border-radius: 2em;
+            border-color: var(--color-success-emphasis);
+            margin-left: 4px !important;
+            padding-right: 4px !important;
+            padding-left: 4px !important;
+            background: var(--color-switch-knob-checked-disabled-bg);
+        }
+
+        .downloadbtn {
+            position: absolute;
+            right: 0px;
+            padding: 16px;
+            border: 0px;
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.25em;
+            text-transform: capitalize;
+            color: #000000;
+            background: linear-gradient(98.95deg, #0AB3BD 0%, #530EE7 100%, #314DCF 100%);
+            text-decoration: none;
+            display: inline-block;
+            width: 126px;
+            height: 50px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="logо_block">
             <img class="logo_img" src="/img/logo.png" alt="Fast Mechanism">
             <div class="logo_text">Fast Mechanism</div>
+            @{
+                var page = (ViewContext.RouteData.Values["page"]
+                    ?.ToString()?.ToLower().Trim());
+            }
+
         </div>
         <div class="download_block">
-            <a type="reset" class="download" asp-area="" asp-page="/Index">Download</a>
+            <a type="reset" class="downloadbtn" asp-area="" asp-page="/Index">Download</a>
         </div>
         <div class="navigation">
             <ul>
-                <li class="list sup">
+                <li class="list sup @(page == "/employees/support" ? "active" : "")">
                     <a asp-area="" asp-page="/Employees/support">
                         <span class="textheadr">support</span>
                     </a>
                 </li>
-                <li class="list active">
+                <li class="list @(page == "/employees/games" ? "active" : "")">
                     <a asp-area="" asp-page="/Employees/Games">
                         <span class="textheadr">Games</span>
                     </a>
                 </li>
-                <li class="list prog">
+                <li class="list prog @(page == "/employees/programs" ? "active" : "")">
                     <a asp-area="" asp-page="/Employees/programs">
                         <span class="textheadr">programs</span>
                     </a>
                 </li>
-                <li class="list last info ">
+                <li class="list last info @(page == "/employees/info" ? "active" : "")">
                     <a asp-area="" asp-page="/Employees/info">
                         <span class="textheadr">info</span>
                     </a>
                 </li>
+                <div class="indicator"></div>
             </ul>
         </div>
     </header>
